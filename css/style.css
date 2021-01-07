@@ -74,10 +74,10 @@ a{
 	border: 1px solid rgba(0,0,0,.6);
 	background: transparent;
 }
+
 .input-name:focus, .input-mail:focus{
     outline: none;
 }
-
 .input-mail{
 	width: 30%;
 }
@@ -126,6 +126,7 @@ textarea{
 }
 textarea:focus{
     outline:none;
+}
 .btn-submit{
 	margin-left: -645px;
     padding: 20px;
