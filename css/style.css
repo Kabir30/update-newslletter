@@ -74,6 +74,9 @@ a{
 	border: 1px solid rgba(0,0,0,.6);
 	background: transparent;
 }
+.input-name:focus, .input-mail:focus{
+    outline: none;
+}
 
 .input-mail{
 	width: 30%;
@@ -109,6 +112,9 @@ a{
 	background: transparent;
 	border: 1px solid rgba(0,0,0,.9);
 }
+.contact-name:focus, .contact-mail:focus, .contact-subject:focus, .contact-phn:focus{
+    outline: none;
+}
 textarea{
     color: #ececec;
 	width: 71.5%;
@@ -118,6 +124,8 @@ textarea{
 	background: transparent;
     border: 1px solid rgba(0,0,0,.9);
 }
+textarea:focus{
+    outline:none;
 .btn-submit{
 	margin-left: -645px;
     padding: 20px;
